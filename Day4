@@ -1,0 +1,30 @@
+a=b=c=20
+print(a,b,c)
+print(a/10)
+print(b*50)
+print(c+60)
+
+var="abcde"
+var2=var.replace('c','G') # by assigning new varaible
+var2
+print(var.replace('c',"G")) # work with the same
+
+x='abcde'
+index_pos=2
+new_var="G"
+x=x[0:index_pos]+new_var+x[index_pos+1:]
+print(x)
+
+
+a=20
+b=5.5
+print(type(a))
+print(type(b))
+
+
+c=float(a)
+print(type(c))
+print(c)
+d=int(b)
+print(type(d))
+print(d)
