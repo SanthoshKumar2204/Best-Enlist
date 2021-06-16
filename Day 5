@@ -1,0 +1,89 @@
+x=input("Enter the name :")
+print("Hi ",x)
+
+A=['a','b','c']
+B=[1,2,3]
+
+print(A)
+print(B)
+print(type(A))
+print(type(B))
+
+#Indexing in List
+print(A[0])
+print(A[-1])
+print(B[0])
+print(B[-1])
+
+#Adding elements to the existing List
+A.append('D')
+B.append(4)
+
+print(A)
+print(B)
+
+#Extend
+A.extend('e')
+
+A
+
+A
+
+B.insert(4,5)
+
+B
+
+#del
+del A[-1]
+A
+
+A.pop() # reomves last item
+# to remove specific A.pop(index)
+
+A
+
+# Remove particular Element
+B.remove(5)
+
+B
+
+#min and Max
+x=[1,2,5,4,3]
+y=['a','b','e','d','c']
+x.sort()
+y.sort()
+
+x
+
+y
+
+#Python Tuples
+a1=(1,2,3)
+a1
+
+a2=(1,'hello',3.4)
+a2
+
+my_tuple = ('p','e','r','m','i','t')
+print(my_tuple[0])
+
+list1=[1,2,3,4,5,6,7,8,9,10]
+list1.append(11)
+list1
+
+list1.pop()
+list1
+
+max_list=max(list1)
+max_list
+
+min_list=min(list1)
+min_list
+
+tuple_1=(1,2,3,4,5,6,7,8,9,10)
+tuple_1[::-1]
+
+tuple_to_list=('apple','orange','grapes')
+tuple_to_list
+
+list(tuple_to_list)
